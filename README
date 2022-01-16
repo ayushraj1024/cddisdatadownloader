@@ -1,0 +1,35 @@
+Please download the ZIP file from the green colored 'Clone' button or you can clone
+the repository too in order to download the programs.
+
+Please follow these instructions before running the programs:
+
+Download and install Python 3 in order to run the programs available in this folder.
+You can download Python 3 from here: https://www.python.org/downloads/
+
+Enter your Earthdata username and password in the _netrc files provided in this folder.
+If you do not have an Earthdata username and password you can obtain one 
+here:https://ers.cr.usgs.gov/register
+
+After entering your username and password in the _netrc file copy and paste this file
+in the C:/Users/your_user_name/ folder. Here your_user_name means your own user name
+in your computer. Notepad++ is a good program for editing files on windows 10. You
+can get it from here: https://notepad-plus-plus.org/downloads/
+
+Open command prompt in administrator mode. In start menu type cmd. The entry for
+Windows Command Prompt will show up. Right click on it and choose 'Run as Administrator'.
+After Command prompt is open type this command: setx HOME %USERPROFILE%
+After entering the above command close the command prompt.
+
+After performing all the above steps come back to this folder and press and hold SHIFT
+button and press RIGHT CLICK (while holding shift). A menu will open. Select
+"Open Powershell Here" or "Open git bash here" option from that menu. A command line
+will open. In that command line type: python download_navigation_data.py
+                                      OR
+                                      python download_observation_data.py
+                                      OR
+                                      python download_precise_orbit_data.py
+
+for navigation data, observation data and precise orbit data respectively.
+Follow the instructions on the application windows itself in order to successfully download
+the data. The downloaded data is stored in this folder only. So, download one type of data
+and move it to your folder of choice and then download another type of data.
